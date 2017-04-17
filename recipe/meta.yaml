@@ -1,8 +1,8 @@
 {% set name = "weightedcalcs" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "a97513c5b33a872d7e4b29d1b6cbed76dccb5fc74b13aa898394312d27c5ac1f" %}
+{% set hash = "358c42eaa4cd94c70d57104ada0ead7694cd1d9be5fa8f02cb9213de2e68c989" %}
 {% set build = 0 %}
 
 package:
@@ -34,8 +34,7 @@ test:
 
 about:
   home: https://github.com/jsvine/weightedcalcs
-  # No MANIFEST.in - see https://github.com/jsvine/weightedcalcs/pull/2
-  license_file: {{ RECIPE_DIR }}/LICENSE.txt
+  license_file: LICENSE.txt
   license: MIT
   license_family: MIT
   summary: 'Pandas-based utility to calculate weighted means, medians, distributions, standard deviations, and more.'
