@@ -1,8 +1,8 @@
 {% set name = "weightedcalcs" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "358c42eaa4cd94c70d57104ada0ead7694cd1d9be5fa8f02cb9213de2e68c989" %}
+{% set hash = "d2c6024b2df4ba21adf43a4e5ddf93035456eb4119c7ed599b570fbd8f859183" %}
 {% set build = 0 %}
 
 package:
