@@ -14,14 +14,15 @@ Summary: Pandas-based utility to calculate weighted means, medians, distribution
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/weightedcalcs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/weightedcalcs-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/weightedcalcs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/weightedcalcs-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/weightedcalcs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/weightedcalcs-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/weightedcalcs-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/weightedcalcs-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/weightedcalcs/badges/version.svg)](https://anaconda.org/conda-forge/weightedcalcs)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/weightedcalcs/badges/downloads.svg)](https://anaconda.org/conda-forge/weightedcalcs)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-weightedcalcs-green.svg)](https://anaconda.org/conda-forge/weightedcalcs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/weightedcalcs.svg)](https://anaconda.org/conda-forge/weightedcalcs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/weightedcalcs.svg)](https://anaconda.org/conda-forge/weightedcalcs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/weightedcalcs.svg)](https://anaconda.org/conda-forge/weightedcalcs) |
 
 Installing weightedcalcs
 ========================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
