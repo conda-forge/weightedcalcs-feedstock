@@ -3,7 +3,7 @@
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "d2c6024b2df4ba21adf43a4e5ddf93035456eb4119c7ed599b570fbd8f859183" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 package:
   name: {{ name|lower }}
@@ -15,11 +15,13 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
+  noarch: python
   number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
     - pandas >=0.19
